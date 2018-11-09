@@ -1,0 +1,14 @@
+#main {
+    border-radius: 17%;
+     border-color: red;
+    border-style: dotted;
+    margin-top: 80px;
+
+ 
+}
+.pet {
+   cursor: pointer;
+  margin:auto;
+max-width: 400px;
+      
+}

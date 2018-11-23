@@ -1,14 +1,36 @@
-#main {
-    border-radius: 17%;
-     border-color: red;
-    border-style: dotted;
-    margin-top: 80px;
-
- 
+[class*='c-']
+{
+	width: 100%;
+	display: inline;
+	float:left;
 }
-.pet {
-   cursor: pointer;
-  margin:auto;
-max-width: 400px;
-      
+[class*='c-']:hover
+{
+	box-shadow:  8px 9px 6px 5px rgba(0,0,0,0.6);
+}
+
+@media only screen and (min-width: 500px){
+.c-small-2{
+	width:50%;
+
+}
+}
+@media only screen and (min-width: 700px){
+.c-mid-3{
+	width:33.33%;
+
+}
+}
+@media only screen and (min-width: 900px){
+.c-lg-4{
+	width:25%;
+
+}
+
+}
+@media only screen and (min-width: 1100px){
+.c-xl-6{
+	width:16.66%;
+
+}
 }
